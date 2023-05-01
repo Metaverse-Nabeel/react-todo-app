@@ -65,6 +65,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Setup with Vite for React]**
+- **[Complete UI / UX Design for React-ToDo-App]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
