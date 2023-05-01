@@ -1,0 +1,111 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todoApp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 5px 5px #aaa;
+  border-radius: 0.8rem;
+  width: 40vw;
+  height: 60vh;
+  padding: 0.8rem;
+}
+
+.appLogic {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appTitle {
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+
+.appDescription {
+  color: gray;
+  font-style: italic;
+  line-height: 1rem;
+  text-align: justify;
+  margin-bottom: 0.5rem;
+}
+
+.todoInput {
+  height: 15%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 5px 5px #aaa;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  border-radius: 0.8rem;
+  padding: 0.8rem 2rem;
+}
+
+.todoTask {
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.todoTask:focus {
+  border: none;
+  outline: none;
+}
+
+.plusIcon {
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.todoItemsContainer {
+  height: 85%;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: scroll;
+}
+
+.todoItem {
+  box-shadow: 1px 1px 2px 2px #aaa;
+  border-radius: 0.4rem;
+  height: 15%;
+  padding: 5px 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.taskItem {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: large;
+  width: 100%;
+}
+
+.firstDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+}
+
+.secondDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  width: 20%;
+}

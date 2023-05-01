@@ -1,9 +1,12 @@
 import "./App.css";
+import ToDoApp from "./components/ToDoApp";
 
 const App = () => {
   return (
     <>
-      <h1>React TODO App</h1>
+      <div className="App">
+        <ToDoApp />
+      </div>
     </>
   );
 };
